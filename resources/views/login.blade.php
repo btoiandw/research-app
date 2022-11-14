@@ -2,13 +2,13 @@
 @include('main')
 <body class="cat__pages__login">
 <!-- START: pages/login -->
-<div class="cat__pages__login cat__pages__login--fullscreen" style="background-image: url(dist/modules/pages/common/img/login/1.jpg)">
+<div class="cat__pages__login cat__pages__login--fullscreen" style="background-image: url('https://e-student.kpru.ac.th/web2016/img/blur-background05.jpg?fbclid=IwAR1vylZQ4i35LxZQd8zX9Vzd751VZjlB_pDRjhcFgG2ZZ25aIDSwr81lKFE')">
     <div class="cat__pages__login__block">
         <div class="row">
             <div class="col-xl-12">
                 <div class="cat__pages__login__block__promo text-white text-center">
                     <h2 class="mb-3">
-                        <strong>WELCOME TO EZEELIVE TECHNOLOGIES - ADMIN PANEL</strong>
+                        <strong></strong>
                     </h2>
                 </div>
                 <div class="cat__pages__login__block__inner">
@@ -106,13 +106,6 @@
             eyeOpenClass: 'icmn-eye',
             eyeCloseClass: 'icmn-eye-blocked'
         });
-
-        // Change BG
-        var min = 1, max = 5,
-            next = Math.floor(Math.random()*max) + min,
-            final = next > max ? min : next;
-        $('.random-bg-image').data('img', final);
-        $('.cat__pages__login').data('img', final).css('backgroundImage', 'url(dist/modules/pages/common/img/login/' + final + '.jpg)');
     
     });
 </script>

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use validator;
-use Auth;
-use Session;
-use DB;
+use Illuminate\Auth\Events\Validated;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\DB;
 class MainController extends Controller
 {
 	

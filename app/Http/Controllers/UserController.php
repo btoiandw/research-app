@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 use Auth;
 use Session;
 use App\User;
-use Validator;
+use Illuminate\Auth\Events\Validated;
 use Image;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Hash;
